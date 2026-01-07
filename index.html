@@ -312,18 +312,19 @@
               .top-sticky-ad {
                 position: fixed;
                 top: 0;
-                left: 0;
-                right: 0;
-                width: 100%;
-                display: flex;
-                justify-content: center;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 728px;
+                height: 90px;
                 z-index: 99999;
                 background-color: transparent;
+                pointer-events: none;
               }
               .top-sticky-ad ins {
                 width: 728px;
                 height: 90px;
                 border-radius: 0 !important;
+                pointer-events: auto;
               }
               .top-sticky-ad ins iframe,
               .top-sticky-ad ins ins,
